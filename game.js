@@ -1,4 +1,4 @@
-var number = 15;
+var number = 30;
 var intervalId;
 var rightCount = 0;
 var wrongCount = 0;
