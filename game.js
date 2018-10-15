@@ -2,14 +2,14 @@ var number = 30;
 var intervalId;
 var rightCount = 0;
 var wrongCount = 0;
-var answerKey = [{id:"ques1",ans:"a",user:"2"},
-                 {id:"ques2",ans:"c",user:"2"},
-                 {id:"ques3",ans:"d",user:"2"},
-                 {id:"ques4",ans:"a",user:"2"},
-                 {id:"ques5",ans:"b",user:"2"},
-                 {id:"ques6",ans:"b",user:"2"},
-                 {id:"ques7",ans:"a",user:"2"},
-                 {id:"ques8",ans:"d",user:"2"}];
+var answerKey = [{id:"ques1",ans:"d",user:"2"},
+                 {id:"ques2",ans:"b",user:"2"},
+                 {id:"ques3",ans:"a",user:"2"},
+                 {id:"ques4",ans:"b",user:"2"},
+                 {id:"ques5",ans:"d",user:"2"},
+                 {id:"ques6",ans:"a",user:"2"},
+                 {id:"ques7",ans:"d",user:"2"},
+                 {id:"ques8",ans:"a",user:"2"}];
 var unsolvedCount = answerKey.length;
 
 $(document).ready(function(){
